@@ -2,7 +2,7 @@ Projet Doodle - SIR
 ## But du projet
 Le but de ce projet est de développer une application web java style doodle-like. Il s'agit de permettre aux utilisateurs de proposer un/des créneau(x) horaire(s) afin de choisir la date et le créneau adéquats pour une reunion. 
 ## Fonctionnalités 
-### Fonctionnalités supportees par le projet
+### Fonctionnalités supportées par le projet
 Dans le but de proposer les fonctionnalités principales du projet, une liste exhaustive des services déjà développés et testés est présentée ci-dessous 
 - Créer un compte utilisateur
 - Créer un sondage
@@ -18,17 +18,17 @@ Dans le but de proposer les fonctionnalités principales du projet, une liste ex
 - Sécuriser les services backend (en fonction des roles - authorization and authentication) : Un plus que nous envisageons d'implementer
 - Tests unitaires
 ## Technologies
-Le projet a été mis en oeuvre avec le langage de programmation **Java**. La couche d’accès aux données (DAO = Data Access Object) et de la persistence de données est gérée par **JPA** et **Hibernate** et la couche de service par **Jersey**. La base de données utilisée est **MySQL**. Le hashage est opere par la librairie **Bcrypt** et l'envoi de mail par **Apache Commons Email**.
+Le projet a été mis en oeuvre avec le langage de programmation **Java**. La couche d’accès aux données (DAO = Data Access Object) et de la persistence de données est gérée par **JPA** et **Hibernate** et la couche de service par **Jersey**. La base de données utilisée est **MySQL**. Le hashage est réalisé par la librairie **Bcrypt** et l'envoi de mail par **Apache Commons Email**.
 - Hibernate : version 4.3.10
 - MySQL : version 5.1.47
 - Jersey :  version 1.19.4
 - Bcrypt: version 0.3m
 - Commons Email : version 1.5
 
-Le plugin maven **Tomcat 7** de Apache est utilisé comme web container pour compiler et exécuter l’application:
+Le plugin maven **Tomcat 7** de Apache est utilisé comme web container pour compiler et exécuter l’application.
 
 ## Lancer l'application
-Il est nécessaire d'effectuer certaines taches afin de pouvoir tester aisément le projet.
+Il est nécessaire d'effectuer certaines tâches afin de pouvoir tester aisément le projet.
 ### Base de données
 Ces operations peuvent être faites au travers d'une application graphique comme **phpMyAdmin** mais cependant nous fournissons ici les commandes sql à exécuter en ligne de commande.
 - Se connecter au serveur mysql installe sur votre machine
@@ -53,3 +53,4 @@ Se déplacer dans un dossier ou le projet sera téléchargé.
 -  Ces fichiers pourront être utilisés pour tester l'application en les important dans Postman
 - Toutes les requêtes http devront normalement produire un resultant même en cas d'erreur (grâce a notre super api - couche de service)  
 - Le dossier **documentation** contient  le diagramme
+- N'oublier pas les point virgule a la fin des requêtes sql :) 
