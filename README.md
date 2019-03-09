@@ -29,6 +29,9 @@ Le plugin maven **Tomcat 7** de Apache est utilisé comme web container pour com
 
 ## Lancer l'application
 Il est nécessaire d'effectuer certaines tâches afin de pouvoir tester aisément le projet.
+Se déplacer dans un dossier ou le projet sera téléchargé.
+- Cloner le projet ou télécharger le     
+**git clone https://gitlab.istic.univ-rennes1.fr/ihaidara/project_sir.git**
 ### Base de données
 Ces operations peuvent être faites au travers d'une application graphique comme **phpMyAdmin** mais cependant nous fournissons ici les commandes sql à exécuter en ligne de commande.
 - Se connecter au serveur mysql installe sur votre machine
@@ -41,9 +44,6 @@ Ces operations peuvent être faites au travers d'une application graphique comme
 - Importer le backup (db_sir.sql a la racine du projet):    
 **mysql -u \<user> -p  db_sir < db_sir.sql** - remplacer user par un utilisateur valide - renseigner le mot de passe. Attention toute autre base de donnée avec le meme nom sera écrasée. 
 ### Lancer le projet avec Maven
-Se déplacer dans un dossier ou le projet sera téléchargé.
-- Cloner le projet ou télécharger le     
-**git clone https://gitlab.istic.univ-rennes1.fr/ihaidara/project_sir.git**
 - Se déplacer dans le dossier **backend** du projet
 - Taper mvn tomcat7:run
 - Enjoy it :) !
