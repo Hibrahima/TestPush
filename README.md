@@ -39,7 +39,7 @@ Ces operations peuvent être faites au travers d'une application graphique comme
 - Octroyer tous les droits sur la base   
  **grant all privileges on db_sir.\*  TO  'db_sir_user'@'localhost';**
 - Importer le backup (db_sir.sql a la racine du projet):    
-**mysql -u <user> -p  db_sir < db_sir.sql** - remplacer user par un utilisateur valide - renseigner le mot de passe. Attention toute autre base de donnée avec le meme nom sera écrasée. 
+**mysql -u \<user> -p  db_sir < db_sir.sql** - remplacer user par un utilisateur valide - renseigner le mot de passe. Attention toute autre base de donnée avec le meme nom sera écrasée. 
 ### Lancer le projet avec Maven
 Se déplacer dans un dossier ou le projet sera téléchargé.
 - Cloner le projet ou télécharger le     
