@@ -37,7 +37,7 @@ Ces operations peuvent être faites au travers d'une application graphique comme
 - Créer un utilisateur db_sir_user avec le mot de passe db_sir_pass     
 **create user 'db_sir_user'@'localhost'  identified by  'db_sir_pass';**
 - Octroyer tous les droits sur la base   
- **grant all privileges on db_sir.*  TO  'db_sir_user'@'localhost';**
+ ****grant all privileges on db_sir.*  TO  'db_sir_user'@'localhost';****
 - Importer le backup (db_sir.sql a la racine du projet):    
 **mysql -u <user> -p  db_sir < db_sir.sql** - remplacer user par un utilisateur valide - renseigner le mot de passe. Attention toute autre base de donnée avec le meme nom sera écrasée. 
 ### Lancer le projet avec Maven
