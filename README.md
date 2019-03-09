@@ -29,7 +29,7 @@ Le plugin maven **Tomcat 7** de Apache est utilisé comme web container pour com
 
 ## Lancer l'application
 Il est nécessaire d'effectuer certaines tâches afin de pouvoir tester aisément le projet.
-Se déplacer dans un dossier ou le projet sera téléchargé.
+- Se déplacer dans un dossier ou le projet sera téléchargé.
 - Cloner le projet ou télécharger le     
 **git clone https://gitlab.istic.univ-rennes1.fr/ihaidara/project_sir.git**
 ### Base de données
