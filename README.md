@@ -61,4 +61,5 @@ Pour maintenir l’intégrité de données entre les relations bidirectionnelles
 Le diagramme de classe se trouve dans le dossier documentation à la racine du projet.
 
 test, encore
-test test 
+test test
+test test test 
